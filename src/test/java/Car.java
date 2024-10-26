@@ -1,7 +1,7 @@
 public class Car {
-    String model;
-    int year;
-    int price;
+    private String model;
+    private int year;
+    private int price;
 
     public Car(String model, int year, int price) {
         this.model = model;
