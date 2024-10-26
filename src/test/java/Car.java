@@ -14,6 +14,10 @@ public class Car {
             System.out.println("შეცდომა: ფასი უნდა იყოს დადებითი რიცხვი!");;
         }
     }
+    //მეორე ტასკის მიხედვით შექმნილი კონსტრუქტორი
+    public Car(String model) {
+        this(model, 2001, 13000);
+    }
 
     public static void main(String[] args) {
         Car car1 = new Car("Volvo", 1989, 34000);
@@ -30,6 +34,15 @@ public class Car {
 
         Car car4 = new Car("Honda", 2014, 5000);
         System.out.println(car4.model + " არის " + car4.year + "-წლიანი და მისი ფასია " + car4.price + " ლარი.");
+        System.out.println();
+
+        //ობიექტები მეორე კონსტრუქტორისთვის
+        Car car5 = new Car("BMW");
+        System.out.println(car5.model + " არის " + car5.year + "-წლიანი და მისი ფასია " + car5.price + " ლარი.");
+        System.out.println();
+
+        Car car6 = new Car("Toyota");
+        System.out.println(car6.model + " არის " + car6.year + "-წლიანი და მისი ფასია " + car6.price + " ლარი.");
         System.out.println();
     }
 }
