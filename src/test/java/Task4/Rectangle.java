@@ -1,8 +1,8 @@
 package Task4;
 
 class Rectangle extends Shape {
-    double length;
-    double width;
+    protected double length;
+    protected double width;
 
     Rectangle(double length, double width) {
         super("Rectangle");

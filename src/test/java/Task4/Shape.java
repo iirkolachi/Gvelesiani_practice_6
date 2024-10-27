@@ -1,7 +1,7 @@
 package Task4;
 
 public class Shape {
-    String name;
+    protected String name;
 
     public Shape(String name) {
         this.name = name;
