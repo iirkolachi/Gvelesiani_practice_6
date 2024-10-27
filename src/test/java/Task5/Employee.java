@@ -1,8 +1,8 @@
 package Task5;
 
 public class Employee {
-    String name;
-    double salary;
+    protected String name;
+    protected double salary;
 
     public Employee(String name, double salary) {
         this.name = name;
