@@ -1,3 +1,5 @@
+package Task2;
+
 public class Mammal extends Animal {
     protected String diet;
 

@@ -1,3 +1,5 @@
+package Task2;
+
 public class Dog extends Mammal {
     protected String breed;
 
