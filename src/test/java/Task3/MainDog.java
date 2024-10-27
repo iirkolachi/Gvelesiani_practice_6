@@ -1,4 +1,4 @@
-package Task2;
+package Task3;
 
 public class MainDog {
     public static void main(String[] args) {
